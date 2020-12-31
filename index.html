@@ -12,6 +12,8 @@
 </head>
 <!--START OF BODY SECTION-->
 <body>
+<!--link to the advande part of the course:-->
+<p><a href="file2.html"> SECOND PART OF THE COURSE</a></p>
 <!--Horizontal rule-->
 <hr>
 <!--headers-->
@@ -108,7 +110,198 @@ Line 3
 <!--RELATIVE LINKS-->
 
 <h1>This is page #1</h1>
-<p><a href=""> Go to page #2</a></p>
+<p><a href="page2.html"> Go to page #2</a></p>
+
+<!--Images-->
+<p>Inserted image:</p>
+<!--image with external link-->
+<img src="https://via.placeholder.com/800x300.jpg" alt="Google Image"
+ title=" Place holder photo" width="800" height="300">
+ <!--with internal link-->
+<img src="stockimage.jpg">
+<hr>
+
+
+<!--Block elements-->
+<!--h1 to h6, p-->
+<!-- block elements take as much width as possible on the page-->
+<p style = 'border: 1px solid red;' >Block element</p>
+
+<!--Inline elements-->
+<!--span, links-->
+<!--wraps around a text-->
+
+<span> Span #1</span> <span> Span #2</span> <br>
+<span style = 'border: 2px solid blue'> Span #3</span>
+
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<!--Divs-->
+<div>First div </div>
+<div> Second div </div>
+
+<p>extra spacing</p>
+<p>extra spacing 2</p>
+
+<!-- you can't nest paragraphs!-->
+<div>
+	<div>
+		<div>
+			<span style="color: purple;"> NESTED DIV </span>
+		</div>
+	</div>
+</div>
+<hr>
+<!--LISTS-->
+
+<h3> Unordered list </h3>
+ 
+ <ul>
+ 	<li> Element #1</li>
+ 	<li>Element #2</li>
+ 	<li>Element #3</li>
+ </ul>
+
+ <h3>Ordered list</h3>
+ <ol>
+ 	<li>El1</li>
+ 	<li>El2</li>
+ 	<li>El3</li>
+ </ol>
+
+<!--Tables-->
+
+<table border="1" width="100%">
+<!--	<thead>Head</thead>-->
+<thead>
+	<tr>
+		<th>Column 1</th>
+		<th>Column 2</th>
+		<th>Column 3</th>
+	</tr>
+</thead>
+	<tr>
+<tbody>
+		<td>Row 1 cell #1</td>
+		<td>Row 1 cell #2</td>
+		<td>Row 1 cell #3</td>
+	</tr>
+	<tr>
+		<td> Row 2 cell #1</td>
+		<td>Row 2 cell #2</td>
+		<td>Row 2 cell #3</td>
+	</tr>
+	<tr>
+
+		<td> Row 2 cell #1</td>
+		<td>Row 2 cell #2</td>
+		<td>Row 2 cell #3</td>
+	</tr>
+	<tr>
+		<th>Footer 1</th>
+		<th>Footer 2</th>
+		<th>Footer 3</th>
+	</tr>
+</tbody>
+</table>
+<!--merging cells,rows..-->
+<table border="1" width="100%">
+<!--	<thead>Head</thead>-->
+<thead>
+	<tr>
+		<th>Column 1</th>
+		<th>Column 2</th>
+		<th>Column 3</th>
+	</tr>
+</thead>
+	<tr>
+<tbody>
+		<td colspan="2">Row 1 cell #1</td>
+		<td>Row 1 cell #2</td>
+		<td>Row 1 cell #3</td>
+	</tr>
+	<tr>
+		<td> Row 2 cell #1</td>
+		<td>Row 2 cell #2</td>
+		<td>Row 2 cell #3</td>
+	</tr>
+	<tr>
+
+		<td> Row 2 cell #1</td>
+		<td rowspan="2" colspan="2">Row 2 cell #2</td>
+		<td>Row 2 cell #3</td>
+	</tr>
+	<tr>
+		<th>Footer 1</th>
+		<th>Footer 2</th>
+		<th>Footer 3</th>
+	</tr>
+</tbody>
+</table>
+
+
+<table border="2" width="50%">
+	<tr>
+		<th>color</th>
+		<th>subcolor</th>
+		<th>hex value</th>
+		<th>RGB value</th>
+		
+	</tr>
+	<tr>
+		<td rowspan="3" bgcolor="blue">Blue</td>
+		<td>baby blue</td>
+		<td>#unknown</td>
+		<td>#unknown</td>
+	
+	</tr>
+	<tr>
+		
+		<td>ocean blue</td>
+		<td>#unknown</td>
+		<td>#unknown</td>
+	
+	</tr>
+	<tr>
+		
+		<td>ocean blue</td>
+		<td>#unknown</td>
+		<td>#unknown</td>
+	
+	</tr>
+	<tr>
+		<td rowspan="3" bgcolor="Red">Red</td>
+		<td>baby red</td>
+		<td>#unknown</td>
+		<td>rgba(0,0,0)</td>
+	
+	</tr>
+	<tr>
+		
+		<td>fire red</td>
+		<td>#unknown</td>
+		<td>rgba(0,0,0)</td>
+	
+	</tr>
+	<tr>
+		
+		<td>navy red</td>
+		<td>#unknown</td>
+		<td>rgba(0,0,0)</td>
+	
+	</tr>
+</table>
+
+
+
+
+
+
 </body>
 <!--BODY SECTION END-->
 
