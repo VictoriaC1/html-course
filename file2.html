@@ -7,7 +7,7 @@
 	<!--this makes the site responsive--> 
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<!--make sure the content is available on edge-->
-	<title> part #2 </title>
+	<title> HTML 2 </title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -99,5 +99,50 @@ This is a variable <var> x </var>
 
 <!--favicon:-->
 <link rel="icon" type="image/png" href="favicons/favicon.png"/>
+
+<!--entities-->
+<h2>Entities</h2>
+
+&nbsp; <!--(non-breaking space)-->
+&lt; (less than symbol)
+<p>
+	I want to talk about &lt; div &gt; <!--it sees it as regular symbols, not html elements-->
+
+</p>
+
+<ul>
+	<li>Text in front &bull; &bull; &bull; Bullet point</li>
+	<li> &copy; Copyright symbol </li>
+	<li> &amp; "and" symbol</li>
+	<li>&gt; &amp; &lt;</li>
+	<li>&rarr; right arrow</li>
+	<li>&larr; left arrow</li>
+	<li> &raquo; double right chevrons</li>
+	<li>&laquo; double left chevrons</li>
+</ul>
+
+<hr>
+<h2>FORMS</h2>
+
+<!--like log in forms-->
+<form method="POST" action="index.html">
+	<!--by using POST instead of GET we hide the data from the url bar-->
+	<!--action is where the form is submitted-->
+
+	<input type="text" name="first_name">
+	<input type="text" name="last_name">
+	<!--<input type="password" name="password">-->
+	<input type="submit" name="submit">
+	
+	
+	
+	
+	<select name="" id="">
+	<option>1</option>
+	<option>2</option>
+     
+	</select>
+</form>
+
 </body>
 </html>
