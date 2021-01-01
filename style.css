@@ -13,3 +13,11 @@ kbd{
 	border: 1px solid black; 
     background-color: white;
 }
+h2{
+	background-color: #5DA7D9;
+	color: #873600;
+}
+img{
+	max-width: 300px; 
+	max-height: 200px;
+}
